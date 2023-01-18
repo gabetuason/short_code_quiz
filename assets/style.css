@@ -1,0 +1,111 @@
+:root {
+    --maincolor: rgb(224, 218, 218);
+    --buttoncolor: #6d1515;
+    --buttontextcolor: #ffffff;
+    --buttonhover: purple;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* Universal Selectors */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--maincolor)
+}
+
+li {
+    list-style: none;
+    margin: 15px;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+/* Button looks */
+button {
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 220px;
+    margin-top: 7px;
+    color: var(--buttontextcolor);
+    background-color: var(--buttoncolor);
+}
+
+button:hover {
+    background-color: var(--buttonhover);
+}
+
+/* ID SELECTORS ---------------------------------------*/
+#userName {
+    margin-top: 2%;
+    padding: 15px;
+}
+
+#checkans {
+    margin-top: 2%;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(200, 255, 0);
+}
+
+/* hide the content */
+#questionpage,
+#finishpage,
+#leaderboardpage {
+    display: none;
+}
+
+#quizscore {
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(255, 230, 0);
+}
+
+#highscoreslist {
+    font-size: 25px;
+    color: black;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(255, 230, 0);
+}
+
+/* Class selectors ---------------------------------------*/
+.topcontent {
+    padding: 3%;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: var(--maincolor);
+}
+
+.timer {
+    padding-top: 2%;
+}
+
+.maincontent {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Media query ---------------------------------------*/
+@media screen and (max-width: 768px) {
+    .topcontent {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h1,
+    h2 {
+        font-size: 30px;
+    }
+}

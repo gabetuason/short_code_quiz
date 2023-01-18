@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <title>Coding quiz</title>
+</head>
+
+<body>
+    <!-- Top part of the page including Highscore and timer-->
+    <header class="boxheader">
+        <div class="topcontent">
+            <div>
+                <button id="viewscores">View High Scores</button>
+                <div class="timer"> Time: 75 </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE SECTIONS FOR THE MAIN CONTENT-->
+    <main class="maincontent">
+        <!-- Rules-->
+        <section id="startingpage">
+            <h1> Coding Quiz Challenge !!</h1>
+            <p>
+                Try to answer the following code-related questions within the time limit. <br>
+                <b>YOU HAVE 75 SECONDS !</b><br>
+                Keep in mind that incorrect answers will penalize your time by ten seconds.<br>
+                Each question is worth 10 points.<br>
+                There are seven questions.
+            </p>
+            <button id="startbutton"> Start Quiz </button>
+        </section>
+
+        <!--questions-->
+        <section id="questionpage">
+            <div>
+                <h2 id="getquestion">Add Question here!!</h2>
+                <li><button id="choice1" value="0" type="button" class="bttnall"> a. </button></li>
+                <li><button id="choice2" value="1" type="button" class="bttnall"> b. </button></li>
+                <li><button id="choice3" value="2" type="button" class="bttnall"> c. </button></li>
+                <li><button id="choice4" value="3" type="button" class="bttnall"> d. </button></li>
+            </div>
+        </section>
+
+        <!--Quiz Finish-->
+        <section id="finishpage">
+            <h2> Finish! </h2>
+            <button id="submitbutton"> Submit </button>
+            <div id="quizscore"> SCORE FINAL </div>
+            <input type="text" name="Enter Initials" id="userName" placeholder="Enter Initials/Name here" />
+        </section>
+
+        <!--Scores leaderboard-->
+        <section id="leaderboardpage">
+            <h2> Leaderboards </h2>
+            <ul id="highscoreslist"></ul>
+            <div>
+                <button id="back"> Go back </button>
+                <button id="clearall"> Clear scores </button>
+            </div>
+        </section>
+
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
