@@ -1,4 +1,4 @@
-# short_code_quiz
+# shortcode_quiz
 A short coding test that includes multiple-choice questions, timer and high score leaderboard.
 
 ## Description
