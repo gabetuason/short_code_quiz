@@ -3,11 +3,11 @@
 ## Deployed URL
 
 ## Description
-This is an interactive coding assesment quiz that runs in the browser. 
+An interactive coding assesment quiz that runs in the browser. 
 It features dynamically updated HTML and CSS, powered by JavaScript. 
-It includes multiple-choice questions, timer and high score leaderboard.
+It includes multiple-choice questions, a timer and high score leaderboard.
 
-Seven questions to be answered within 75 seconds.
+Seven questions to be answered within 75 seconds. This is a quiz to test a user's knowledge in coding topics. 
 
 
 ## User Story
