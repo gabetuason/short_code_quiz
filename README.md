@@ -26,5 +26,5 @@ It's done...
 - WHEN the game is over THEN I can save my initials and score
 
 ## Screenshot
-
+![Alt text](https://github.com/gabetuason/short_code_quiz/blob/main/screenshotquiz.PNG)
 
