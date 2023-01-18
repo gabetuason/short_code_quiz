@@ -1,6 +1,7 @@
 # shortcode_quiz
 
 ## Deployed URL
+https://gabetuason.github.io/shortcode_quiz/
 
 ## Description
 An interactive coding assesment quiz that runs in the browser. 
