@@ -1,10 +1,13 @@
 # shortcode_quiz
-A short coding test that includes multiple-choice questions, timer and high score leaderboard.
+
+## Deployed URL
 
 ## Description
 This is an interactive coding assesment quiz that runs in the browser. 
 It features dynamically updated HTML and CSS, powered by JavaScript. 
-Contains seven questions and 75 second timer
+It includes multiple-choice questions, timer and high score leaderboard.
+
+Seven questions to be answered within 75 seconds.
 
 
 ## User Story
