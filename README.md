@@ -3,7 +3,8 @@ A short coding test that includes multiple-choice questions, timer and high scor
 
 ## Description
 This is an interactive coding assesment quiz that runs in the browser. 
-It features dynamically updated HTML and CSS, powered by JavaScript.
+It features dynamically updated HTML and CSS, powered by JavaScript. 
+Contains seven questions and 75 second timer
 
 
 ## User Story
